@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prueba</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<style>
+		#izquierda
+		{
+			position: absolute;
+			top: 1px;
+			left: 1px;
+		}
+		#derecha
+		{
+			position: absolute;
+			top: 1px;
+			right: 1px;
+		}
+		.logo
+		{
+			width: 100px;
+		}
+		h1
+		{
+			text-align: center;
+			font-family: 'Courgette', cursive;
+		}
+		h2
+		{
+			font-family: monospace;
+		}
+		button
+		{
+			color: white;
+			background-color: #009A55; /* Green */
+			display: inline-block;
+		}
+		p
+		{
+			text-align: justify;
+			font-family: sans-serif;
+		}
+		table
+		{
+			text-align: center;
+			font-family: sans-serif;
+		}
+		table, th, td
+		{
+			border: 1px solid black;
+		}
+		a
+		{
+			font-family: sans-serif;
+			color: white;
+			text-decoration: none;
+		}
+		#linkimg
+		{
+			background-color: #009A55;
+		}
+		img
+		{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<img src="uaslp_logo.png" id="izquierda" class="logo">
+	<img src="uaslp_ing.png" id="derecha" class="logo">
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h1>Ejercicio de repaso</h1>
+	<h2 align="center">Torres Barajas Brandon</h2>
+
+	<button type="button"><a href="#texto">Texto</a></button>
+	<button type="button"><a href="#tablas">Tablas</a></button>
+	<button type="button"><a href="#imagenes">Imágenes</a></button>
+
+	<h2 id="texto">Ejemplo de texto</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at elementum purus, eget vestibulum ipsum. Nulla pellentesque enim vitae eros efficitur tempor. Donec consectetur nibh sapien, ac commodo mi ullamcorper vitae. Donec sollicitudin odio et risus porta feugiat. Integer commodo risus eu ex mollis, eu condimentum neque pellentesque. Mauris fermentum eget purus ut venenatis. Integer fringilla aliquet eros, id eleifend ex vehicula non. Sed tempus urna nec pharetra tincidunt. In hac habitasse platea dictumst. Praesent vitae maximus dolor. Ut quis risus placerat, accumsan erat quis, gravida lacus. Maecenas vel pharetra erat. Nullam condimentum purus neque, in elementum ipsum tincidunt eu. In sollicitudin in dolor nec iaculis. Phasellus in eros mauris.</p>
+
+	<h2 id="tablas">Ejemplo de tablas</h2>
+	<table>
+		<tr>
+			<th>Frameworks</th>
+			<th>Front end</th>
+			<th>Back end</th>
+		</tr>
+
+		<tr>
+			<th>Bootstrap</th>
+			<td>X</td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<th>JQuery</th>
+			<td>X</td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<th>NodeJs</th>
+			<td colspan="2">X</td>
+		</tr>
+	</table>
+
+	<h2>Ejemplo de links</h2>
+	<a href="" id="linkimg">Click para cambiar la imagen</a>
+
+	<img src="uaslp.jpg" id="imagenes">
+</body>
+</html>
